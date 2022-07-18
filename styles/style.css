@@ -1,7 +1,9 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common styes or utilities start */
+/*-----------------------------------------------------------------
+                common styes or utilities start
+-----------------------------------------------------------------*/
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -15,11 +17,16 @@ body {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
 
-/* common styes end */
+/*-----------------------------------------------------------------------
+                            common styes end 
+ -----------------------------------------------------------------------*/
 
-/* top players style */
+/*-------------------------------------------------------------------------
+                             top players style 
+--------------------------------------------------------------------------*/
 main {
     display: flex;
     justify-content: center;
@@ -55,3 +62,48 @@ main {
     margin-left: 16px;
     font-size: 18px;
 }
+
+/*---------------------------------------------------------------------
+                            top-players style end 
+----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------
+                             top-blogs style start
+-----------------------------------------------------------------------*/
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog .thumbnail img {
+    width: 224px;
+    height: 127px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog-author a {
+    color: #562EFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/*-----------------------------------------------------------------------
+                            top-blogs style end 
+-----------------------------------------------------------------------*/
